@@ -8,12 +8,20 @@
     <name>guamail</name>
     <description>guamail</description>
     <packaging>pom</packaging>
-
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.7.3</version>
+        <relativePath/> <!-- 重要 -->
+    </parent>
     <modules>
         <module>guamail-product</module>
         <module>guamail-member</module>
         <module>guamail-order</module>
         <module>guamail-ware</module>
         <module>guamail-coupon</module>
+        <module>renren-fast</module>
+        <module>renren-generator</module>
+        <module>guamail-common</module>
     </modules>
 </project>
