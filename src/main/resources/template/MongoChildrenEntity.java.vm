@@ -19,7 +19,7 @@ import org.springframework.data.annotation.Id;
  * @date ${datetime}
  */
 @Data
-public class ${className}InnerEntity  {
+public class ${className}InnerEntity {
 
 
 #foreach ($column in $columns)
